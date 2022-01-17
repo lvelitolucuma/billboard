@@ -394,3 +394,7 @@ canvas {
 .rounded-links:hover {
   background-color: #2CF10C;
 }
+
+.square {
+  padding-bottom: 100%;
+}
