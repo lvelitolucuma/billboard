@@ -319,13 +319,13 @@ getData('https://nft-canvas.uc.r.appspot.com/api/grid/startupy?token=this-is-for
         name = 'D'+(identificator - 35)
       }
       if(claim) {
-        insert = `<div class="relative col-span-6 sm:col-span-4 md:col-span-2 xl:col-span-1 square">
+        insert = `<div class="relative col-span-3 sm:col-span-2 md:col-span-2 xl:col-span-1 square">
           <a href="https://startupy.onlytiktok.com/lot/${name}" target="_blank" class="absolute frame-item w-full h-full flex justify-center items-center bg-white border border-2 border-gray-800">
             <img src="${element.contentURI}" class="block w-full h-full object-cover" />
           </a>
         </div>`;
       } else {
-        insert = `<div class="relative col-span-6 sm:col-span-4 md:col-span-2 xl:col-span-1 square">
+        insert = `<div class="relative col-span-3 sm:col-span-2 md:col-span-2 xl:col-span-1 square">
           <a href="https://startupy.onlytiktok.com/lot/${name}" target="_blank" class="absolute frame-item w-full h-full flex justify-center items-center bg-white border border-2 border-gray-800">${name}</a>
         </div>`;
       }
